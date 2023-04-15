@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ussd.App.BLL", "Ussd.App.BL
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ussd.App.Api", "Ussd.App.Api\Ussd.App.Api.csproj", "{C6C58E5B-EBAF-4211-A3A4-37C8D24C66BC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ussd.App.Worker", "Ussd.App.Worker\Ussd.App.Worker.csproj", "{FF15A0B3-816F-48A3-9C01-2BA2BC1395D5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{C6C58E5B-EBAF-4211-A3A4-37C8D24C66BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C6C58E5B-EBAF-4211-A3A4-37C8D24C66BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C6C58E5B-EBAF-4211-A3A4-37C8D24C66BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF15A0B3-816F-48A3-9C01-2BA2BC1395D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF15A0B3-816F-48A3-9C01-2BA2BC1395D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF15A0B3-816F-48A3-9C01-2BA2BC1395D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF15A0B3-816F-48A3-9C01-2BA2BC1395D5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

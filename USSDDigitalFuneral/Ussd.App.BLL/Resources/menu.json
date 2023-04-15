@@ -1,0 +1,18 @@
+[
+  {
+    "ProductName": "Apply for products",
+    "ProductCode": "A"
+  },
+  {
+    "ProductName": "View my portfolio",
+    "ProductCode": "V"
+  },
+  {
+    "ProductName": "Make a claim",
+    "ProductCode": "M"
+  },
+  {
+    "ProductName": "Ask a general question",
+    "ProductCode": "G"
+  }
+]

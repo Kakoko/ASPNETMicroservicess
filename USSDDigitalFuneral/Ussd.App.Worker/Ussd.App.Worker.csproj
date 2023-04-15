@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <LangVersion>9.0</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+	  <PackageReference Include="AngleDimension.Mno.DataModels" Version="1.0.0.7" />
+	  <PackageReference Include="AngleDimension.NetCore.Ussd" Version="2.0.1" />
+	  <PackageReference Include="AngleDimension.Standard.Core" Version="1.1.5.4" />
+	  <PackageReference Include="MassTransit.RabbitMQ" Version="8.0.6" />
+	  <PackageReference Include="Microsoft.Extensions.Hosting" Version="6.0.0" />
+	  <PackageReference Include="MassTransit" Version="[8.0.6,9.0)" />
+	  <PackageReference Include="Serilog.AspNetCore" Version="6.1.0" />
+	  <PackageReference Include="Serilog.Expressions" Version="3.4.1" />
+	  <PackageReference Include="Serilog.Extensions.Hosting" Version="5.0.1" />
+	  <PackageReference Include="Serilog.Sinks.Console" Version="4.1.0" />
+	  <PackageReference Include="Serilog.Sinks.Seq" Version="5.2.2" />
+	  <PackageReference Include="StackExchange.Redis" Version="2.6.96" />
+	  <PackageReference Include="StackExchange.Redis.Extensions.AspNetCore" Version="8.0.5" />
+	  <PackageReference Include="StackExchange.Redis.Extensions.System.Text.Json" Version="8.0.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Ussd.App.BLL\Ussd.App.BLL.csproj" />
+  </ItemGroup>
+</Project>

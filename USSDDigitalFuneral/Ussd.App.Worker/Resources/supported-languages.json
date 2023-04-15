@@ -1,0 +1,12 @@
+[
+  {
+    "LanguageId": 1,
+    "LanguageCode": "en",
+    "LanguageName": "English"
+  },
+  {
+    "LanguageId": 2,
+    "LanguageCode": "ny",
+    "LanguageName": "Chichewa"
+  }
+]
